@@ -1,0 +1,136 @@
+
+body {
+    width: 100%;
+    background-color: rgb(174, 157, 199);
+    margin: 0px;
+    
+}
+
+main {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(29,29,29);
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    align-items: center;
+    
+}
+
+#logo {
+    aspect-ratio: 1/1;
+    padding-left: 35px;
+    width: 12%;
+
+}
+
+nav {
+    width: 50%;
+    max-width: fit-content;
+    height: 50%;
+    padding-right: 45px;
+    
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items:center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    background: -webkit-linear-gradient(left,rgba(212, 202, 227,15),rgb(109, 67, 143));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav > ul > li {
+    color: rgb(174, 157, 199);;
+    display: block;
+    margin: 0 0.2rem;
+    padding: 0.5rem;
+    font-size: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav > ul > li:hover {
+    background-color: rgb(168, 161, 180);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+
+li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(29, 29, 29);
+    font-size: 350%;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.statement {
+    background: -webkit-radial-gradient(rgb(200, 190, 227),rgb(173, 133, 221));
+    padding-top: 11%;
+    padding-bottom: 9%;
+    width: 100%;
+    height: auto;
+}
+
+.logos {
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+.smlogo {
+    display: inline-block;
+    justify-content: space-evenly;
+    margin: 0.5rem 0.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.logoshape {
+    width: 75px;
+    height: 75px;
+}
+
+footer {
+    text-align: center;
+    margin: 0%;
+    height: 100px;
+    background-color: rgb(29, 29, 29);
+}
+
+footer > p {
+    padding: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(174, 157, 199);;
+    font-size: small;
+}
+
+p {
+    color: aliceblue;
+}
+
+.contact-info {
+    padding-left: 5%;
+    font-size: medium;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(29, 29, 29);
+}
+
+.contact-info > a {
+    color: rgb(83, 59, 59);
+    text-decoration: none;
+}
