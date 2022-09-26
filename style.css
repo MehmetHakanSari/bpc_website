@@ -151,3 +151,11 @@ p {
     text-decoration: none;
 }
 
+.intext {
+    color: inherit;
+    text-decoration: none;
+}
+
+.intext:hover {
+    text-decoration:underline;
+}
